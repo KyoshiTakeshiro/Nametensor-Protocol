@@ -92,17 +92,18 @@ Development Setup
 
 Install dependencies
 
-• npm install
+	•	npm install
 
 Push database schema
 
-• npm run db:push
+	•	npm run db:push
 
 Start server
 
-• npm run dev
+	•	npm run dev
 
 	•	The indexer initializes from the current finalized block.
+	
 	•	To rewind or reset the indexer, use scripts in /script.
 
 ⸻
