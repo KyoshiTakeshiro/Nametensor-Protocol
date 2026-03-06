@@ -58,8 +58,13 @@ The Subtensor chain is the canonical source of truth.
 Verification guarantees:
 
 No backend write authority
+
 No hidden state
+
 No privileged indexer
+
 No silent overrides
+
 Fully reproducible ownership mapping
+
 NameTensor is a deterministic state machine over Subtensor history.
