@@ -88,30 +88,6 @@ curl https://nametensor.io/api/primary/5CswvK7Mp5ZoEsxqvetkCvgNx9v5d4qmV9MtHjt8q
 
 ⸻
 
-What Was Removed (v1.1.0)
-
-Previous versions allowed backend-assisted registration through:
-
-POST /api/register
-
-	•	This endpoint is permanently removed.
-	
-	•	All registrations now occur directly on-chain via the user’s wallet extension.
-	
-	•	Backend no longer:
-	
-	•	Accepts signatures
-	
-	•	Accepts tx hashes
-	
-	•	Creates database entries directly
-	
-	•	Performs off-chain state writes
-
-State is derived only from finalized chain data.
-
-⸻
-
 Development
 
 Setup
