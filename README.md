@@ -130,9 +130,3 @@ On-Chain vs Backend:
 All ownership and validation are derived from on-chain data. The backend only indexes and serves read-only API requests. It cannot alter ownership or registration.
 
 NameTensor is designed to minimize trust assumptions while remaining simple and permanent.
-
-⸻
-
-Security
-
-See docs/threat-model.md for a full architectural threat model covering frontend spoofing, RPC manipulation, indexer divergence, fee enforcement, and namespace abuse vectors.
